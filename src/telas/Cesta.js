@@ -3,6 +3,8 @@ import { StyleSheet, Image, Dimensions } from 'react-native';
 
 import topo from '../../assets/topo.png';
 
+const width = Dimensions.get('screen').width;
+
 export default function Cesta (){
     return <Image source={topo} style={estilos.topo} />
 }

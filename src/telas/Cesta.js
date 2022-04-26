@@ -13,7 +13,7 @@ export default function Cesta (){
 
       <View style={estilos.cesta}>
           <Text style={estilos.nome}>Cesta de Verduras</Text>
-          <View>
+          <View style={estilos.fazenda}>
             <Image source={logo} style={estilos.imagemFazenda}/>
             <Text style={estilos.nomeFazenda}>Jenny jack farm</Text>
           </View>
@@ -55,6 +55,10 @@ const estilos = StyleSheet.create({
         lineHeight: 42,
         fontWeight: "bold",
     },
+    fazenda: {
+        flexDirection: "row",
+        paddingVertical: 12,
+    },
     imagemFazenda: {
         width: 32,
         height: 32,
@@ -62,6 +66,7 @@ const estilos = StyleSheet.create({
     nomeFazenda: {
         fontSize: 16,
         lineHeight: 26,
+        marginLeft: 12,
     },
     descricao: {
         color: "#A3A3A3",

@@ -11,7 +11,7 @@ export default function Cesta (){
       <Text style={estilos.titulo}>Detalhe da cesta</Text>
 
       <View>
-          <Text>Cesta de Verduras</Text>
+          <Text style={estilos.nome}>Cesta de Verduras</Text>
           <Text>Jenny jack farm</Text>
           <Text>
               Uma cesta com produtos selecionados 
@@ -39,6 +39,10 @@ const estilos = StyleSheet.create({
         color: "white",
         fontWeight: "bold",
         padding: 16,
+    },
+    cesta: {
+        paddingVertical: 8,
+        paddingHorizontal: 16,
     },
     nome: {
         color: "#464646",

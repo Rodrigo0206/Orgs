@@ -12,7 +12,7 @@ export default function Cesta (){
 
       <View style={estilos.cesta}>
           <Text style={estilos.nome}>Cesta de Verduras</Text>
-          <Text>Jenny jack farm</Text>
+          <Text style={estilos.nomeFazenda}>Jenny jack farm</Text>
           <Text>
               Uma cesta com produtos selecionados 
               cuidadosamente da fazenda direto pra
@@ -53,5 +53,11 @@ const estilos = StyleSheet.create({
     nomeFazenda: {
         fontSize: 16,
         lineHeight: 26,
-    }
+    },
+    descricao: {
+        color: "#A3A3A3",
+        fontSize: 16,
+        lineHeight: 26,  
+    },
+    
 });

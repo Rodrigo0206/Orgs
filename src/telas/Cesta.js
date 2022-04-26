@@ -10,7 +10,7 @@ export default function Cesta (){
       <Image source={topo} style={estilos.topo} />
       <Text style={estilos.titulo}>Detalhe da cesta</Text>
 
-      <View>
+      <View style={estilos.cesta}>
           <Text style={estilos.nome}>Cesta de Verduras</Text>
           <Text>Jenny jack farm</Text>
           <Text>
@@ -49,5 +49,9 @@ const estilos = StyleSheet.create({
         fontSize: 26,
         lineHeight: 42,
         fontWeight: "bold",
+    },
+    nomeFazenda: {
+        fontSize: 16,
+        lineHeight: 26,
     }
 });

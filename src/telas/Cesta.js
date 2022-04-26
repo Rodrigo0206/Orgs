@@ -39,5 +39,11 @@ const estilos = StyleSheet.create({
         color: "white",
         fontWeight: "bold",
         padding: 16,
+    },
+    nome: {
+        color: "#464646",
+        fontSize: 26,
+        lineHeight: 42,
+        fontWeight: "bold",
     }
 });

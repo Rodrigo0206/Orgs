@@ -1,6 +1,8 @@
 import React from 'react';
 import { StyleSheet, Image, Dimensions, Text, View } from 'react-native';
 
+import Texto from '../componentes/Texto';
+
 import topo from '../../assets/topo.png';
 import logo from '../../assets/logo.png';
 
@@ -18,11 +20,11 @@ export default function Cesta (){
             <Text style={estilos.nomeFazenda}>Jenny jack farm</Text>
           </View>
          
-          <Text style={estilos.descricao}>
+          <Texto style={estilos.descricao}>
               Uma cesta com produtos selecionados 
               cuidadosamente da fazenda direto pra
               sua cozinha
-          </Text>
+          </Texto>
           <Text style={estilos.preco}>R$ 40,00 </Text>
 
       </View>

@@ -20,7 +20,7 @@ export default function Cesta (){
             <Text style={estilos.nomeFazenda}>Jenny jack farm</Text>
           </View>
          
-          <Texto style={estilos.descricao}>
+          <Texto >
               Uma cesta com produtos selecionados 
               cuidadosamente da fazenda direto pra
               sua cozinha

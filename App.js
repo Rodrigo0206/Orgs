@@ -7,7 +7,7 @@ import {
 } from '@expo-google-fonts/montserrat';
 
 import Cesta from './src/telas/Cesta';
-import { View } from 'react-native-web';
+//import { View } from 'react-native-web';
 
 export default function App() {
   const [fonteCarregada] = useFonts ({
